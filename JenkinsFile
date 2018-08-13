@@ -1,5 +1,6 @@
 node{
     stage('Checkout'){
+	git 'https://github.com/asifsain/Jenkins_SimplePipeline.git'
         sh 'echo "This is the checkout stage of Simple Pipeline"';
     }
     stage('Build'){
