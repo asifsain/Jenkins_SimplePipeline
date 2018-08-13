@@ -1,0 +1,13 @@
+node{
+    stage('Checkout'){
+        sh 'This is the checkout stage of Simple Pipeline';
+    }
+    stage('Build'){
+        sh 'This is the build stage of Simple Pipeline';
+    }
+    stage('Deploy'){
+        sh 'This is the deploy  stage of Simple Pipeline';
+    }
+
+
+}
